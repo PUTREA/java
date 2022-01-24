@@ -1,0 +1,12 @@
+public static double luasTabung(){
+        Scanner l = new Scanner(System.in);
+        Scanner t = new Scanner(System.in);
+        System.out.println("Rumus luas lingkaran = jari x jari x 3.14");
+        System.out.print("Masukkan jari - jari : ");
+        int jari = l.nextInt();
+        int tinggi = t.nextInt();
+        double hasil = 3.14 * jari * jari * tinggi;
+        System.out.println("");
+        System.out.print("hasil : ");
+        return hasil;
+    }
